@@ -1,10 +1,10 @@
 {
-  "name": "source-lab",
-  "description": "Throwaway: which plugin source types work in Claude Desktop account marketplaces",
+  "name": "sandbox",
+  "description": "Sandbox for experiments with Claude plugins and marketplaces",
   "owner": { "name": "Exomind Tmi" },
   "plugins": [
-    { "name": "lab-subdir", "description": "git-subdir source", "source": { "source": "git-subdir", "url": "exomind-tmi/plugin-source-lab", "path": "plugins/lab-subdir" } },
-    { "name": "lab-root", "description": "github source, plugin at repo root", "source": { "source": "github", "repo": "exomind-tmi/plugin-source-lab" } },
+    { "name": "lab-subdir", "description": "git-subdir source", "source": { "source": "git-subdir", "url": "exomind-tmi/sandbox-claude-plugin", "path": "plugins/lab-subdir" } },
+    { "name": "lab-root", "description": "github source, plugin at repo root", "source": { "source": "github", "repo": "exomind-tmi/sandbox-claude-plugin" } },
     { "name": "lab-relative", "description": "relative path inside the marketplace", "source": "./plugins/lab-relative" }
   ]
 }
