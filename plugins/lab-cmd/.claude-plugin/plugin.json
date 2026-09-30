@@ -1,0 +1,1 @@
+{ "name": "lab-cmd", "version": "0.1.0", "description": "Probe: extensionless command resolving to a .cmd twin on Windows" }

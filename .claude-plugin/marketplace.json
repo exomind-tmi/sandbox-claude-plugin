@@ -1,10 +1,36 @@
 {
   "name": "sandbox",
   "description": "Sandbox for experiments with Claude plugins and marketplaces",
-  "owner": { "name": "Exomind Tmi" },
+  "owner": {
+    "name": "Exomind Tmi"
+  },
   "plugins": [
-    { "name": "lab-subdir", "description": "git-subdir source", "source": { "source": "git-subdir", "url": "https://github.com/exomind-tmi/sandbox-claude-plugin.git", "path": "plugins/lab-subdir" } },
-    { "name": "lab-root", "description": "url source (https), plugin at repo root", "source": { "source": "url", "url": "https://github.com/exomind-tmi/sandbox-claude-plugin.git" } },
-    { "name": "lab-relative", "description": "relative path inside the marketplace", "source": "./plugins/lab-relative" }
+    {
+      "name": "lab-subdir",
+      "description": "git-subdir source",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/exomind-tmi/sandbox-claude-plugin.git",
+        "path": "plugins/lab-subdir"
+      }
+    },
+    {
+      "name": "lab-root",
+      "description": "url source (https), plugin at repo root",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/exomind-tmi/sandbox-claude-plugin.git"
+      }
+    },
+    {
+      "name": "lab-relative",
+      "description": "relative path inside the marketplace",
+      "source": "./plugins/lab-relative"
+    },
+    {
+      "name": "lab-cmd",
+      "description": "extensionless command + .cmd twin",
+      "source": "./plugins/lab-cmd"
+    }
   ]
 }
