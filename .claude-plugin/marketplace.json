@@ -3,8 +3,8 @@
   "description": "Sandbox for experiments with Claude plugins and marketplaces",
   "owner": { "name": "Exomind Tmi" },
   "plugins": [
-    { "name": "lab-subdir", "description": "git-subdir source", "source": { "source": "git-subdir", "url": "exomind-tmi/sandbox-claude-plugin", "path": "plugins/lab-subdir" } },
-    { "name": "lab-root", "description": "github source, plugin at repo root", "source": { "source": "github", "repo": "exomind-tmi/sandbox-claude-plugin" } },
+    { "name": "lab-subdir", "description": "git-subdir source", "source": { "source": "git-subdir", "url": "https://github.com/exomind-tmi/sandbox-claude-plugin.git", "path": "plugins/lab-subdir" } },
+    { "name": "lab-root", "description": "url source (https), plugin at repo root", "source": { "source": "url", "url": "https://github.com/exomind-tmi/sandbox-claude-plugin.git" } },
     { "name": "lab-relative", "description": "relative path inside the marketplace", "source": "./plugins/lab-relative" }
   ]
 }
