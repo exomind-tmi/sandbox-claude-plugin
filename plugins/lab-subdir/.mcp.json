@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "where": {
+      "command": "${SystemRoot}/System32/WindowsPowerShell/v1.0/powershell.exe",
+      "args": ["-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", "${CLAUDE_PLUGIN_ROOT}/where.ps1"]
+    }
+  }
+}
